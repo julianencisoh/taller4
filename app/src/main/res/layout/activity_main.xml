@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/casillaDos"
+        android:layout_width="83dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/boton"
+        android:ems="10"
+        android:hint="198"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/casillaTres"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/casillaUno"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonPing"
+        android:layout_width="193dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="308dp"
+        android:text="PING"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonBuscarHosts"
+        android:layout_width="193dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="376dp"
+        android:text="Buscar Hosts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/casillaUno"
+        android:layout_width="83dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/boton"
+        android:ems="10"
+        android:hint="192"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/casillaDos"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/casillaTres"
+        android:layout_width="83dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/boton"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/casillaCuatro"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/casillaDos"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/casillaCuatro"
+        android:layout_width="83dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/boton"
+        android:ems="10"
+        android:hint="1"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/casillaTres"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mi IP"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="629dp" />
+
+    <TextView
+        android:id="@+id/numeroIp"
+        android:layout_width="201dp"
+        android:layout_height="28dp"
+        android:text="192.156.985.536"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
